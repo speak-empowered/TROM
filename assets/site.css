@@ -25,14 +25,22 @@ h3 { font-size: 2rem; }
 .wrap { width: min(100% - 2 * clamp(1.25rem, 5vw, 5rem), 1370px); margin-inline: auto; }
 .skip { position: absolute; z-index: 5; left: 1rem; top: -8rem; padding: .6rem 1rem; background: var(--ink); }
 .skip:focus { top: .8rem; }
-.header { position: relative; z-index: 2; background: #0b1d2c; border-bottom: 1px solid #645039; }
+.header {
+  --nav-navy: #0b2237;
+  --nav-gold: #866329;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  border-bottom: 1px solid #e6dfd2;
+}
 .header .wrap { display: flex; justify-content: space-between; align-items: center; gap: 1.4rem; min-height: 88px; }
-.brand { display: block; flex: 0 0 auto; padding: .24rem .6rem; border-radius: .2rem; background: #faf7ef; }
-.brand img { width: clamp(144px, 15vw, 200px); }
+.brand { display: block; flex: 0 0 auto; max-width: 100%; }
+.brand img { width: clamp(216px, 22.5vw, 300px); }
 .nav { display: flex; gap: clamp(.75rem, 2vw, 2rem); align-items: center; }
-.nav a { text-decoration: none; color: var(--paper); font-size: .91rem; font-weight: 600; white-space: nowrap; }
-.nav a[aria-current], .nav a:hover { color: var(--gold); text-decoration: underline; }
-.nav a:last-child { border: 1px solid #756953; border-radius: .3rem; padding: .4rem .82rem; }
+.nav a { text-decoration: none; color: var(--nav-navy); font-size: .91rem; font-weight: 600; white-space: nowrap; }
+.nav a[aria-current], .nav a:hover { color: var(--nav-gold); text-decoration: underline; }
+.header a:focus-visible { outline-color: var(--nav-navy); }
+.nav a:last-child { border: 1px solid var(--nav-gold); border-radius: .3rem; padding: .4rem .82rem; }
 .hero { position: relative; isolation: isolate; overflow: hidden; background: #191715; }
 .hero::before { position: absolute; inset: 0; z-index: -1; content: ''; background: linear-gradient(90deg,rgba(13,13,12,.86),rgba(13,13,12,.62) 38%,transparent 72%), url(images/mountain-hero.webp) center 40% / cover; }
 .hero-layout { position: relative; min-height: clamp(575px, 48vw, 710px); display: flex; align-items: center; padding-block: 4.6rem; }
@@ -75,7 +83,7 @@ blockquote p { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.15 var(--serif); margin: 0
 /* Let the existing logo’s black background blend into the dark footer. */
 .platform-credit img { width: 330px; mix-blend-mode: lighten; }
 .platform-credit a { margin: 0; }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .header .wrap { padding-block: .9rem; flex-wrap: wrap; row-gap: .5rem; }
   .nav { flex-wrap: wrap; column-gap: 1rem; row-gap: .25rem; }
 }
