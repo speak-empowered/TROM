@@ -70,6 +70,10 @@ blockquote p { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.15 var(--serif); margin: 0
 .site-footer .wrap { display: flex; flex-wrap: wrap; gap: 1.2rem 2rem; justify-content: space-between; align-items: center; }
 .site-footer p { margin: 0; }
 .site-footer a { margin-right: .9rem; }
+.platform-credit { display: grid; justify-items: start; gap: .4rem; }
+.platform-credit p { font-size: .875rem; }
+.platform-credit img { width: 220px; }
+.platform-credit a { margin: 0; }
 @media (max-width: 1000px) {
   .header .wrap { padding-block: .9rem; flex-wrap: wrap; row-gap: .5rem; }
   .nav { flex-wrap: wrap; column-gap: 1rem; row-gap: .25rem; }
