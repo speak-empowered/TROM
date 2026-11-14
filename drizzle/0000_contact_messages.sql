@@ -1,0 +1,8 @@
+CREATE TABLE contact_messages (
+  id TEXT PRIMARY KEY NOT NULL,
+  received_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  name TEXT NOT NULL,
+  email TEXT NOT NULL,
+  topic TEXT NOT NULL,
+  message TEXT NOT NULL
+);
