@@ -42,7 +42,7 @@ h3 { font-size: 2rem; }
 .header a:focus-visible { outline-color: var(--nav-navy); }
 .nav a:last-child { border: 1px solid var(--nav-gold); border-radius: .3rem; padding: .4rem .82rem; }
 .hero { position: relative; isolation: isolate; overflow: hidden; background: #191715; }
-.hero::before { position: absolute; inset: 0; z-index: -1; content: ''; background: linear-gradient(90deg,rgba(13,13,12,.86),rgba(13,13,12,.72) 38%,rgba(13,13,12,.12) 72%), url(images/geralt-crosses-671379.jpg) center 48% / cover; }
+.hero::before { position: absolute; inset: 0; z-index: -1; content: ''; background: linear-gradient(90deg,rgba(13,13,12,.88),rgba(13,13,12,.65) 34%,transparent 65%), url(images/geralt-crosses-671379.jpg) center 48% / min(100vw, 2048px) auto no-repeat; }
 .hero-layout { position: relative; min-height: clamp(575px, 48vw, 710px); display: flex; align-items: center; padding-block: 4.6rem; }
 .hero-copy { width: min(56%, 610px); }
 .hero h1 { margin-bottom: .16em; font-size: clamp(4rem, 7.5vw, 7.5rem); }
