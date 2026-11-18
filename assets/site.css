@@ -205,3 +205,6 @@ blockquote p { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.15 var(--serif); margin: 0
   .contact-hero-layout { grid-template-columns: 56px minmax(0, 1fr); gap: 1rem; }
   .contact-quote-icon { width: 56px; height: 56px; }
 }
+
+.coaching-invitation { margin-inline: auto; text-align: center; }
+.coaching-invitation .lede { margin-inline: auto; }
