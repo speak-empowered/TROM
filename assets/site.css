@@ -145,8 +145,8 @@ blockquote p { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.15 var(--serif); margin: 0
 .testimonial figcaption { color: #866329; }
 
 .platform-credit .platform-logo-link { display: block; width: 330px; max-width: 100%; }
-.home-links { gap: 1.5rem; }
-.home-links article {
+.home-links, .mission-cards { gap: 1.5rem; }
+.home-links article, .mission-cards li {
   display: flex;
   flex-direction: column;
   padding: clamp(1.4rem, 2.5vw, 2rem);
@@ -155,10 +155,10 @@ blockquote p { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.15 var(--serif); margin: 0
   background: #fff;
   color: #0b2237;
 }
-.home-links article p { color: #384b5b; }
-.home-links article a { margin-top: auto; color: #866329; font-weight: 700; }
-.home-links article a:hover { color: #0b2237; }
-.home-links article a:focus-visible { outline-color: #0b2237; }
+.home-links article p, .mission-cards li p { color: #384b5b; }
+.home-links article a, .mission-cards li a { margin-top: auto; color: #866329; font-weight: 700; }
+.home-links article a:hover, .mission-cards li a:hover { color: #0b2237; }
+.home-links article a:focus-visible, .mission-cards li a:focus-visible { outline-color: #0b2237; }
 
-.home-links article h3 { display: flex; align-items: center; gap: .75rem; }
+.home-links article h3, .mission-cards li h3 { display: flex; align-items: center; gap: .75rem; }
 .step-icon { flex: 0 0 30px; color: #a47b35; }
