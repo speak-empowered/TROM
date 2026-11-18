@@ -42,7 +42,6 @@ h3 { font-size: 1.5rem; }
 .nav a { text-decoration: none; color: var(--nav-navy); font-size: .91rem; font-weight: 600; white-space: nowrap; }
 .nav a[aria-current], .nav a:hover { color: var(--nav-gold); text-decoration: underline; }
 .header a:focus-visible { outline-color: var(--nav-navy); }
-.nav a:last-child { border: 1px solid var(--nav-gold); border-radius: .3rem; padding: .4rem .82rem; }
 .hero { position: relative; isolation: isolate; overflow: hidden; background: #191715; }
 .hero::before { position: absolute; inset: 0; z-index: -1; content: ''; background: linear-gradient(90deg,rgba(13,13,12,.88),rgba(13,13,12,.65) 34%,transparent 65%), url(images/geralt-crosses-671379.jpg) center 48% / min(100vw, 2048px) auto no-repeat; }
 .hero-layout { position: relative; min-height: clamp(575px, 48vw, 710px); display: flex; align-items: flex-start; padding-top: 2.76rem; padding-bottom: 4.6rem; }
@@ -93,7 +92,6 @@ blockquote p { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.15 var(--serif); margin: 0
   .header .wrap { display: block; }
   .nav { margin-top: .8rem; }
   .nav a { font-size: .82rem; }
-  .nav a:last-child { padding: .15rem .45rem; }
   .hero::before { background: linear-gradient(0deg,#101a23 1%,#101a23 17%,#101a23ed 41%,#101a2319 71%), url(images/geralt-crosses-671379.jpg) center top / auto 68% no-repeat; }
   .hero-layout { min-height: auto; padding-top: clamp(162px, 42.6vw, 270px); padding-bottom: 3rem; }
   .hero-copy { width: 100%; }
