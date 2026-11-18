@@ -223,3 +223,7 @@ blockquote p { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.15 var(--serif); margin: 0
   .mission-ticker-window { overflow-x: auto; }
   .mission-ticker-set[aria-hidden="true"] { display: none; }
 }
+
+.book-reviews { margin-inline: auto; text-align: center; }
+.book-reviews blockquote { border-left: 0; padding: 0; }
+.book-reviews .actions { justify-content: center; }
