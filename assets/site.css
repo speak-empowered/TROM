@@ -229,3 +229,6 @@ blockquote p { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.15 var(--serif); margin: 0
 .book-reviews .actions { justify-content: center; }
 
 .compact-subhero { padding-top: clamp(2.04rem, 4.2vw, 4.08rem); }
+
+.footer-verse { display: inline-flex; align-items: center; gap: .4rem; color: var(--gold); white-space: nowrap; }
+.footer-verse svg { flex-shrink: 0; }
