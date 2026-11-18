@@ -213,7 +213,7 @@ blockquote p { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.15 var(--serif); margin: 0
 .mission-ticker { display: flex; align-items: stretch; background: #fff; color: #866329; border-block: 1px solid #e6dfd2; }
 .mission-ticker-window { overflow: hidden; flex: 1; min-width: 0; }
 .mission-ticker-track { display: flex; width: max-content; }
-.mission-ticker-set { display: flex; align-items: center; flex-shrink: 0; gap: 3rem; padding: 1rem 3rem 1rem 0; }
+.mission-ticker-set { display: flex; align-items: center; justify-content: space-around; flex-shrink: 0; min-width: 100vw; gap: 1.75rem; padding: 1rem .875rem; }
 .mission-ticker-item { display: inline-flex; align-items: center; gap: .75rem; white-space: nowrap; font-weight: 700; font-size: .9rem; text-transform: uppercase; letter-spacing: .08em; }
 .mission-ticker-item svg { flex: 0 0 24px; }
 .mission-ticker .mission-ticker-track { animation: mission-scroll 38s linear infinite; }
