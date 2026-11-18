@@ -232,3 +232,9 @@ blockquote p { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.15 var(--serif); margin: 0
 
 .footer-verse { display: inline-flex; align-items: center; gap: .4rem; color: var(--gold); white-space: nowrap; }
 .footer-verse svg { flex-shrink: 0; }
+
+.other-books h2 { text-align: center; }
+.other-books .other-book-cover { display: block; margin: 0 0 1.5rem; }
+.other-book-cover img { width: 100%; height: clamp(260px, 27vw, 360px); object-fit: contain; }
+.other-books .home-links article .button { align-self: start; color: #211911; }
+.other-books .home-links article .button:hover { color: #211911; }
