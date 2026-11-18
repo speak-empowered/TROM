@@ -162,3 +162,16 @@ blockquote p { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.15 var(--serif); margin: 0
 
 .home-links article h3, .mission-cards li h3 { display: flex; align-items: center; gap: .75rem; }
 .step-icon { flex: 0 0 30px; color: #a47b35; }
+
+.testimonial-portrait {
+  width: 144px;
+  height: 144px;
+  margin: 0 auto 1.75rem;
+  border: 3px solid #a47b35;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 35%;
+}
+.testimonial figcaption a { color: inherit; }
+.testimonial figcaption a:hover { color: #0b2237; }
+.testimonial figcaption a:focus-visible { outline-color: #0b2237; }
