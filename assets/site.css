@@ -253,3 +253,7 @@ blockquote p { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.15 var(--serif); margin: 0
   .podcast-hero-layout { grid-template-columns: 1fr; text-align: center; }
   .podcast-cover { max-width: 360px; margin-inline: auto; }
 }
+
+.restoration-verse { margin: 1.5rem 0 0; }
+.restoration-verse p { font-family: var(--sans); font-size: 1.05rem; line-height: 1.65; }
+.restoration-verse cite { display: block; margin-top: .65rem; color: var(--gold); font-size: .95rem; font-style: normal; font-weight: 600; }
